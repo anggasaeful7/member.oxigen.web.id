@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+import Bganimasi from "./Bganimasi";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Bganimasi />
+      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1>
+
+      <label htmlFor="my-modal" className="btn modal-button">
+        open modal
+      </label>
+
+      <input type="checkbox" id="my-modal" className="modal-toggle" />
+      <div className="modal">
+        <div className="modal-box">
+          <h3 className="font-bold text-lg">
+            Congratulations random Internet user!
+          </h3>
+          <p className="py-4">
+            You've been selected for a chance to get one year of subscription to
+            use Wikipedia for free!
+          </p>
+          <div className="modal-action">
+            <label htmlFor="my-modal" className="btn">
+              Yay!
+            </label>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 }
